@@ -1,0 +1,64 @@
+body
+{
+    min-width: 90vw;
+    min-height: 90vh;
+    background-color: gold;
+    font-family: Figtree, monospace;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container
+{
+    box-shadow: 3px 3px black;
+    border: 2px solid;
+    height: fit-content;
+    width: 370px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+}
+#box 
+{
+    padding: 8px;
+    height: 100%;
+    width: 100%;
+}
+#card {
+    padding-right: 10px;
+    margin: 3px;
+    
+}
+#card img
+{
+    margin: auto;
+    display: block;
+    width: 95%;
+    height: 200px;
+    border-radius: 15px;
+}
+#card button
+{
+    box-shadow: 5px 1px black;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    padding: 8px;
+    font-weight: 800;
+    background-color: gold;
+    text-align: center;
+    margin-top: 0px;
+}
+.avatar span
+{
+    vertical-align: middle;
+}
+.avatar img 
+{
+    vertical-align: middle;
+    height: 35px;
+    width: 30px;
+    border-radius: 50%;
+}
